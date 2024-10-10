@@ -27,14 +27,14 @@ class DataTransformation:
         This function is responsible for data transformation
         '''
         try:
-            # Correct column names
+            
             numerical_columns = ["writing score", "reading score"]
             categorical_columns = [
                 "gender",
-                "race/ethnicity",  # Corrected column name
-                "parental level of education",  # Corrected column name
+                "race/ethnicity",  
+                "parental level of education",  
                 "lunch",
-                "test preparation course",  # Corrected column name
+                "test preparation course",  
             ]
 
             num_pipeline= Pipeline(
